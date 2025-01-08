@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+
+# .env file containing sensitive environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# VSC or IDE config files (e.g., VS Code settings)
+.vscode/
+.idea/
+
+# Build directories
+dist/
+build/
+
+# Debugging files
+*.bak
+*.swp
+
+# NPM package lock file for non-production environments (optional, but recommended)
+package-lock.json
+
+# Yarn lock file (if you're using Yarn instead of npm)
+yarn.lock
